@@ -1,0 +1,25 @@
+[package]
+name = "apicall"
+version = "0.2.0"
+edition = "2021"
+
+description = "API design and testing tool"
+readme = "README.md"
+documentation = "https://github.com/spacealex69/apicall"
+
+authors = ["spacealex69 <spacealex69@gmail.com>"]
+
+license = "Apache-2.0"
+
+keywords = ["api"]
+
+homepage = "https://github.com/spacealex69/apicall"
+repository = "https://github.com/spacealex69/apicall"
+
+[[bin]]
+name = "apicall"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
